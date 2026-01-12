@@ -16,7 +16,7 @@ const TICKET_CATEGORY_ID = '1460080874660958330';
 
 // Bot data storage (in-memory - resets on restart)
 let botData = {
-    prefix: '/',
+    prefix: '!',
     blacklistedWords: ['fuck', 'shit', 'bitch', 'nigger', 'nigga', 'faggot', 'retard', 'cunt', 'ass', 'damn'],
     rulesChannel: null,
     ticketChannel: null,
